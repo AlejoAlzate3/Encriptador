@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <img class="logo-header animate__heartBeat" src="./img/logo2.png" alt="logo alura">
+        </div>
+        <div class="div-title">
+            <h1 class="title">Encriptador de mensajes</h1>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <textarea class="text-area" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="container-buttons">
+                <p class="text-buttons"><i class='bx bxs-error-circle'></i> Solo letras minúsculas y sin acentos</p>
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="section2">
+            <div class="container-muneco ocultar">
+                <img class="muneco" src="./img/Muñeco.png" alt="muneco alura">
+            </div>
+            <div class="container-h3 ocultar">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="container-parrafo ocultar">
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="container-result">
+                <h2 class="result-h2 ">Mensaje Encriptado</h2>
+                <textarea class="text-area-result " placeholder="resultado"></textarea>
+            </div>
+            <div class="container-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img class="logo-footer" src="./img/logo2.png" alt="logo alura">
+        <p class="text-footer">Alura Challenge 2023</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
