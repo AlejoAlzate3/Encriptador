@@ -16,7 +16,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 ### Tecnologías utilizadas:
 
-![htmlnueva](https://user-images.githubusercontent.com/78713566/221072313-f3747fc4-026d-4ffe-8626-7e37e81b2f2b.svg "HTML5") ![css3-svg](https://user-images.githubusercontent.com/78713566/221078134-ec0fed5a-1cb3-48e0-933e-e9b7272861f2.svg "CSS3") ![js-svg](https://user-images.githubusercontent.com/78713566/221078922-5b357d7b-bfc9-4820-8de9-6028a38ec58b.svg "JavaScript")
+![html-5color](https://user-images.githubusercontent.com/78713566/221082130-6b3dcbbc-803b-4c12-b919-1599f31b63c6.svg "HTML5") ![css-3color](https://user-images.githubusercontent.com/78713566/221082262-a4232cd9-1d43-402e-8003-f2c84d400ae9.svg "CSS3") ![jscolor](https://user-images.githubusercontent.com/78713566/221082338-5ba29930-e5b6-47ec-b429-8e67355aaf22.svg "JavaScript")
 
 ### Previsualización
 
