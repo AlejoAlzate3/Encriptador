@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
     <title>Encriptador</title>
 </head>
 <body>
@@ -21,39 +21,48 @@
             <h1 class="title">Encriptador de mensajes</h1>
         </div>
     </header>
+
     <main>
         <section class="section1">
-            <textarea class="text-area" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea id="text-area" class="text-area" placeholder="Ingrese el texto aqui"></textarea>
             <div class="container-buttons">
                 <p class="text-buttons"><i class='bx bxs-error-circle'></i> Solo letras minúsculas y sin acentos</p>
                 <input type="button" class="btn-encriptar" value="Encriptar">
                 <input type="button" class="btn-desencriptar" value="Desencriptar">
             </div>
         </section>
+
         <section class="section2">
-            <div class="container-muneco ocultar">
+            <div id="container-muneco" class="container-muneco">
                 <img class="muneco" src="./img/Muñeco.png" alt="muneco alura">
             </div>
-            <div class="container-h3 ocultar">
+            <div id="container-h3" class="container-h3">
                 <h3>Ningún mensaje fue encontrado</h3>
             </div>
-            <div class="container-parrafo ocultar">
+            <div id="container-parrafo" class="container-parrafo">
                 <p>Ingresa el texto que desees encriptar o desencriptar</p>
             </div>
-            <div class="container-result">
-                <h2 class="result-h2 ">Mensaje Encriptado</h2>
-                <textarea class="text-area-result " placeholder="resultado"></textarea>
+            <div id="container-result" class="container-result">
+                <h2 id="result-h2" class="result-h2">Mensaje Encriptado</h2>
+                <textarea id="resultado" class="text-area-result" placeholder="resultado"></textarea>
             </div>
-            <div class="container-copiar">
-                <input type="button" class="btn-copiar" value="Copiar">
+            <div id="btn-copiar" class="container-copiar">
+                <input type="button" id="btn-copiar" class="btn-copiar" value="Copiar">
             </div>
         </section>
     </main>
+
     <footer>
         <img class="logo-footer" src="./img/logo2.png" alt="logo alura">
-        <p class="text-footer">Alura Challenge 2023</p>
+        <p class="text-footer">&copy Copyright Encriptador de Texto - 2023 | By Alejandro Alzate 🚀</p>
+        <a class="icono-lin" href="https://www.linkedin.com/in/alejandroalzatetovar/" target="_blank">
+            <img class="logo-linkedin" src="./img/linkedin.svg" alt="Linkedin Personal">
+        </a>
+        <a class="icono-git" href="https://github.com/AlejoAlzate3" target="_blank">
+            <img class="logo-github" src="./img/github.svg" alt="Github Personal">
+        </a>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="./assests/js/index.js"></script>
 </body>
 </html>
